@@ -1,0 +1,30 @@
+.page-service {
+  .desc-service {
+    padding-top: 60px;
+
+    h1 em {
+      font-style: normal;
+      color: #d44000;
+    }
+
+    h1 {
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 96px;
+      color: white;
+    }
+
+    p {
+      font-size: 18.5px;
+      line-height: 27px;
+      color: #7c7b7b;
+    }
+
+    .btn {
+      width: 153px;
+      height: 40px;
+      background: #161212;
+      border-radius: 50px;
+    }
+  }
+}

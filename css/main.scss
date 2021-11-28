@@ -1,0 +1,17 @@
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "fonts";
+@import "global";
+@import "navbar";
+@import "footer";
+
+@import "pages/home";
+@import "pages/jumbotron";
+@import "pages/detail-menu";
+@import "pages/detail-service";
+@import "pages/about";
+
+@import "components/menu";
+@import "components/service";
+@import "components/contact";
+@import "components/detail";

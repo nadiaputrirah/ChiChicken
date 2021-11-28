@@ -1,0 +1,46 @@
+.navbar-store {
+  padding-top: 15px;
+
+  @include media-breakpoint-down(md) {
+    background-color: #040404 !important;
+  }
+
+  .nav-item {
+    .nav-link {
+      font-size: 16px;
+      line-height: 27px;
+      color: white;
+
+      &.active {
+        font-weight: bold;
+        color: #d44000 !important;
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+
+    .nav-link:hover {
+      color: #f8ebe5 !important;
+      border: none;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    min-width: 2em; /* em unit */
+    width: 120px;
+    height: 45px;
+    background: #d42600;
+    border-radius: 50px;
+    border: none;
+    margin-left: -10px;
+  }
+}
+
+.navbar-fixed-top {
+  background-color: #040404 !important;
+  transition: background-color 200ms linear !important;
+}
